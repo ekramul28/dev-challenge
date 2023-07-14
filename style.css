@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+
+}
+
+.container-img {
+    width: 400px;
+    height: 400px;
+}
+
+.header {
+    font-size: 50px;
+}
+
+.para {
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .para {
+        margin: 30px 0px;
+    }
+}
